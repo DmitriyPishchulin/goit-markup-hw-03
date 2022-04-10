@@ -365,11 +365,11 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-between;
   padding-top: 50px;
 }
 
-.portfolio-list-item {
+.portfolio-list-item:not(:nth-child(3n)) {
+  padding-right: 30px;
 }
 
 .portfolio-list-title {
